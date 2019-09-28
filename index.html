@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--This page contains a short profile and picture along with a navigation bar to other pages on the site-->
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <div id="page-content" class="container; w-50 p-3; mx-auto"> <!--constrains the width to 50% ie 960px and centres using mx-auto-->
+        <div id="name-row" class="row justify-content-md-center"> <!--centres Name and navigation row-->
+            <div id="name-back" class="col-md-5; text-center">
+                <h2 id="name-text" class="p-3">Duncan Campbell</h2> 
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-md-4; text-center; small">
+                <div class="my-4">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">About</a></li>
+                            <li class="breadcrumb-item"><a href="portfolio.html">Portfolio</a></li>
+                            <li class="breadcrumb-item"><a href="contact.html">Contact</a></li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            <div id="name-border"></div>
+        </div>
+        <div id="cont-back">
+            <div id="cont-border" class="border"> <!--About Me contents -->
+                <div class="row" style="padding-left:15px">
+                    <h2 id="cont-head">About Me</h2>
+                </div>
+                <div id="abt-row" class="row"> <!--width:100% is the key to constrain row to the size of the parent-->
+                    <div class="mt-3; pl-4">
+                        <img id="abt-pic" src="assets/images/Profile picture.jpg" ALIGN="left" alt="Duncan profile picture">
+                        <span id="abt-text">
+                            <p>
+                                I have been programming as a sideline to my normal engineering job since teaching
+                                myself VBA for Excel in 2002. Once I developed enough confidence in my programming
+                                skills I would find myself encountering problems in my normal role that I could see
+                                a solution for. Then in my own time, I would set about resolving a programmatic answer
+                                to the problem. I still find myself as excited today about my latest programs as I was
+                                upon completing my first program and demonstrating it in a weekly meeting to my peers 
+                                and managers (with the screen updating deliberately left on). I find it immensely
+                                satisfying to create programs that will accomplish in a few seconds what would take
+                                hours or even days to perform manually.
+                            </p>
+                            <p>
+                                I have continued my self learning in the art of programming with Python, T-SQL, Access
+                                VBA along with supporting programs and technologies such as Visual Studio and Git. For
+                                the first time in my part time amateur programming career I am taking a course on full
+                                stack web development. I am very excited to finally have people to learn with as I
+                                struggle with a new bunch of languages.
+                            </p>
+                            <p>
+                                For me, it's all about the creative solutions you can bring to make the world a better
+                                place...or at least make someone's life a little easier. I also like whitewater kayaking.
+                            </p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="sticky-footer" class="py-3 bg-secondary text-white">
+            <div class="container text-center" style="font-size: 0.6em;">
+                Copyright &copy;
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--This page contains a short profile and picture along with a navigation bar to other pages on the site-->
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <div id="page-content" class="container; w-50 p-3; mx-auto"> <!--constrains the width to 50% ie 960px and centres using mx-auto-->
+        <div id="name-row" class="row justify-content-md-center"> <!--centres Name and navigation row-->
+            <div id="name-back" class="col-md-5; text-center">
+                <h2 id="name-text" class="p-3">Duncan Campbell</h2> 
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-md-4; text-center; small">
+                <div class="my-4">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">About</a></li>
+                            <li class="breadcrumb-item"><a href="portfolio.html">Portfolio</a></li>
+                            <li class="breadcrumb-item"><a href="contact.html">Contact</a></li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            <div id="name-border"></div>
+        </div>
+        <div id="cont-back">
+            <div id="cont-border" class="border"> <!--Contact contents -->
+                <div class="row" style="padding-left:15px">
+                    <h2 id="cont-head">Contact</h2>
+                </div>
+                <form>
+                    <div class="form-group">
+                        <label for="NameInput">Name</label>
+                        <input type="text" class="form-control" id="NameInput" placeholder="John Smith">
+                    </div>
+                    <div class="form-group">
+                        <label for="EmailInput">Email</label>
+                        <input type="text" class="form-control" id="EmailInput" placeholder="example@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="MessageInput">Message</label>
+                        <input type="textarea" class="form-control" style="height:200px;"id="MessageInput">
+                    </div>
+                </form>
+                <button type="button">Submit</button>
+            </div>
+        </div>
+        <footer id="sticky-footer" class="py-3 bg-secondary text-white">
+            <div class="container text-center" style="font-size: 0.6em">
+                Copyright &copy;
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,150 @@
+html, body {   /*required for the sticky footer*/
+    height: 100%;
+}
+
+label {
+    color: #777777;
+}
+
+#page-content {  /*required for the sticky footer*/
+    flex: 1 0 auto;
+}
+
+#name-row {
+    width: 100%;
+    padding-left:25px;
+    margin: 20px 0px 0px -2px;
+}
+
+#name-back {
+    color:white;
+    background:#4aaaa5; 
+}
+
+#name-text {
+    margin-top: 8px;
+    padding-bottom: -8px;
+}
+
+#name-border {
+    width: 100%;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: #cccccc
+}
+
+#cont-back {
+    background-image: url(memphis-mini.png);
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-left:21px;
+}
+
+#cont-border {
+    background: #ffffff;
+    margin: 5px 103px 0px 104px;  
+}
+
+#cont-head {
+    width: 100%;
+    color: #4aaaad;
+    padding-bottom: 20px;
+    border-width:0px 0px 2px 0px;
+    border-style:solid;
+    border-color: #cccccc;
+    margin: 18px 34px 18px 20px;
+}
+
+#abt-row {
+    width: 100%;
+    padding-left: 10px;
+}
+
+#abt-pic {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+#abt-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    word-spacing: 5px;
+    font-size:0.9em;
+}
+
+.form-group {
+    padding: 0px 20px;
+}
+
+button {
+    color: #ffffff;
+    background: #4aaaa5;
+    padding: 5px 20px;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;    
+}
+
+#port-row {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#Yewby {
+    width: 253.3px;
+    height: 190px;
+}
+
+#Great-Falls {
+    width: 337.2px;
+    height: 190px;
+    margin-left: 20px;
+}
+
+#Tomkos { 
+    width: 337.2px;
+    height: 190px;
+}
+
+#Play-park {
+    width: 253.3px;
+    height: 190px;
+    margin-left: 20px;
+}
+
+#Child-play {
+    width: 253.3px;
+    height: 190px;
+}
+
+#The-Green {
+    width: 285.2px;
+    height: 190px;
+    margin-left: 20px;
+}
+
+.text-cont {
+    position: relative;
+}
+
+.overlay-text {
+    position: absolute;
+    top:-50px;
+    width: auto;
+    padding: 10px 0px;
+    color: #ffffff;
+    background: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+} 
+
+#sticky-footer {
+    flex-shrink: none; /*required for sticky footer*/
+    background: #666666;
+    border-width: 8px 0px 0px 0px;
+    border-style: solid;
+    border-color:#4aaaa5;
+    margin-left: 21px;
+}
